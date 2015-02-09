@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30159EB81A89392300698F34 /* Lorenz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30159EB71A89392300698F34 /* Lorenz.cpp */; };
 		307C6BBC1A89378800E49160 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BBB1A89378800E49160 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		30159EB71A89392300698F34 /* Lorenz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lorenz.cpp; path = "../../../../Documents/Term 3B/PMATH 370/Project/Lorenz.cpp"; sourceTree = "<group>"; };
+		30159EBB1A893A0D00698F34 /* Lorenz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lorenz.cpp; sourceTree = SOURCE_ROOT; };
 		307C6BB81A89378800E49160 /* Lorenz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lorenz; sourceTree = BUILT_PRODUCTS_DIR; };
 		307C6BBB1A89378800E49160 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				307C6BBB1A89378800E49160 /* main.cpp */,
-				30159EB71A89392300698F34 /* Lorenz.cpp */,
+				30159EBB1A893A0D00698F34 /* Lorenz.cpp */,
 			);
 			path = Lorenz;
 			sourceTree = "<group>";
@@ -122,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				307C6BBC1A89378800E49160 /* main.cpp in Sources */,
-				30159EB81A89392300698F34 /* Lorenz.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
